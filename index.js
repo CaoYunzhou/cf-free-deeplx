@@ -6,6 +6,7 @@ addEventListener('fetch', (event) => {
 const targetURLs = [
     'https://dx.ift.lat',
     'https://deepl.coloo.org',
+    'https://api.deeplx.org',
     // 添加更多的目标地址
 ];
 
