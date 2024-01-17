@@ -5,6 +5,8 @@
 ## 部署方式
 
 - 配置cloudflare的Work
+- 设置 > 变量 > 添加环境变量
+- 环境变量名称：TARGET_URL，值为：`https://dx.ift.lat,https://deepl.coloo.org,https://api.deeplx.org`
 - 把index.js的内容粘贴到cloudflare的work中
 - 在cloudflare > work > 触发器,配置自定义域名就可以愉快的翻译了
 

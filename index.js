@@ -2,19 +2,8 @@ addEventListener('fetch', (event) => {
     event.respondWith(handleRequest(event.request));
 });
 
-// 定义目标地址列表
-// 定义目标地址列表
-const targetURLs = [
-    'https://dx.ift.lat',
-    'https://deepl.coloo.org',
-    'https://api.deeplx.org',
-    'https://dx.ift.lat',
-    'https://deeplx.keyrotate.com',
-    'https://deepl.tr1ck.cn',
-    'https://translate.dftianyi.com',
-    'https://deepl.dlwlrma.xyz',
-    // 添加更多的目标地址
-];
+// 将环境变量 TARGET_URL 按逗号分割成数组
+const targetURLs = TARGET_URL.split(',');
 
 async function handleRequest(request) {
     // 随机选择一个目标地址
@@ -34,7 +23,7 @@ async function handleRequest(request) {
     headers.set('Content-Type', 'application/json');
 
     // 打印请求地址
-    console.log('Request Headers:', targetURL + userURI);
+    console.log('Request URL:', proxyURL);
 
     // 克隆请求，以确保可以多次读取正文
     const clonedRequest = new Request(request);
