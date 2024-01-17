@@ -3,10 +3,16 @@ addEventListener('fetch', (event) => {
 });
 
 // 定义目标地址列表
+// 定义目标地址列表
 const targetURLs = [
     'https://dx.ift.lat',
     'https://deepl.coloo.org',
     'https://api.deeplx.org',
+    'https://dx.ift.lat',
+    'https://deeplx.keyrotate.com',
+    'https://deepl.tr1ck.cn',
+    'https://translate.dftianyi.com',
+    'https://deepl.dlwlrma.xyz',
     // 添加更多的目标地址
 ];
 
