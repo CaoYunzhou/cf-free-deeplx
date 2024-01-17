@@ -4,6 +4,7 @@
 
 ## 部署方式
 
+- **建议自己部署CF-Work，这个只是Demo**
 - 配置cloudflare的Work
 - 设置 > 变量 > 添加环境变量
 - 环境变量名称：TARGET_URL，值为：`https://dx.ift.lat,https://deepl.coloo.org,https://api.deeplx.org`
