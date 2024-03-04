@@ -1,7 +1,7 @@
 # cf-free-deeplx-translate
 
 - 一个简便的负载均衡的方式来使用翻译服务
-
+- 感谢cloudflare https://cloudflare.com
 ## 部署方式
 
 - **建议自己部署CF-Work，这个只是Demo**
